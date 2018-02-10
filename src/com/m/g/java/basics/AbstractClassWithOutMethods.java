@@ -1,4 +1,4 @@
-package com.m.g.java;
+package com.m.g.java.basics;
 
  abstract class AbstractClassWithcutMethods {
 
