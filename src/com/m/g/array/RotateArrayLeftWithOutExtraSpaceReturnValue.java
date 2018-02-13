@@ -2,7 +2,6 @@ package com.m.g.array;
 
 import com.m.g.util.ArrayUtil;
 
-import java.lang.reflect.Array;
 import java.util.Optional;
 
 public class RotateArrayLeftWithOutExtraSpaceReturnValue {
