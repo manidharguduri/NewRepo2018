@@ -58,6 +58,6 @@ class WmApp implements App {
 class MsfApp implements App {
     @Override
     public void start() {
-        System.out.println(" MsfApp is started .... ");
+        System.out.println(" MsfApp is started ..... ");
     }
 }
