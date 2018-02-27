@@ -28,7 +28,7 @@ class BStudentName {
         return firstName;
     }
 
-    public void setFirstName(String firstName) {
+        public void setFirstName(String firstName) {
         Objects.requireNonNull(firstName, "First name is not valid");
         this.firstName = firstName;
     }
@@ -107,7 +107,7 @@ class BStudent {
 
             } else {
                 BStudentName bname = new BStudentName();
-                bname.setFirstName(lastName);
+                bname.setLastName(lastName);
                 bStudent.setStudentName(bname);
 
             }
@@ -120,8 +120,7 @@ class BStudent {
         }
 
 
-    }
-
+    }t
 
 }
 
@@ -130,8 +129,10 @@ public class BuilderPattern {
 
     public static void main(String[] args) {
 
-        new BStudent.BStudentBuilder().withId(1).withLastName("gayi").withFirstName("bhallamudi").build();
+      BStudent bs=  new BStudent.BStudentBuilder().withId(1).withLastName("gayi").withFirstName("bhallamudi").build();
 
-
+      System.out.println(bs.getStudentName().firstName);
+      System.out.println(bs.getStudentID().getId());
+      System.out.println(bs.getStudentName().lastName);
     }
 }
