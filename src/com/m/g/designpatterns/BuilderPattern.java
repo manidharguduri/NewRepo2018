@@ -120,7 +120,7 @@ class BStudent {
         }
 
 
-    }t
+    }
 
 }
 
