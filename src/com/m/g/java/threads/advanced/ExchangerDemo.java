@@ -1,4 +1,4 @@
-package com.m.g.threads.advanced;
+package com.m.g.java.threads.advanced;
 /**
  * Exchanger allows exchanging of objects between two threads.
  * First thread reaches the exchange points and waits till the second thread

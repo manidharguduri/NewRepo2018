@@ -1,4 +1,4 @@
-package com.m.g.threads.advanced;
+package com.m.g.java.threads.advanced;
 
 public class ThreadLocalDemo {
 

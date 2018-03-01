@@ -1,4 +1,4 @@
-package com.m.g.collection;
+package com.m.g.java.collection;
 /***
  * Whenever a key is null. HashMap places
  * the key in '0'index.HashMap allows only one

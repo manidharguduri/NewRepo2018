@@ -1,4 +1,4 @@
-package com.m.g.threads;
+package com.m.g.java.threads;
 
 public class CriticalSectionDemo1 {
 

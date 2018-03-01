@@ -1,4 +1,4 @@
-package com.m.g.threads;
+package com.m.g.java.threads;
 
 /**
  * This EvenOddThreadProblem has two threads where one thread produce even number

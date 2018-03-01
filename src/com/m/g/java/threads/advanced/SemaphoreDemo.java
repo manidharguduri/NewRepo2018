@@ -1,4 +1,4 @@
-package com.m.g.threads.advanced;
+package com.m.g.java.threads.advanced;
 
 import java.util.concurrent.Semaphore;
 

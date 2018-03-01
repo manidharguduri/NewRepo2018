@@ -1,4 +1,4 @@
-package com.m.g.collection;
+package com.m.g.java.collection;
 /**
  * when two iterator instances are used on the same list.
  * Using first iterator instance we are changing the structure of the list.
