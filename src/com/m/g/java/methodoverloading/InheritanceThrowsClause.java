@@ -1,4 +1,4 @@
-package com.m.g.java.basics;
+package com.m.g.java.methodoverloading;
 
 import java.io.IOException;
 
@@ -8,7 +8,6 @@ import java.io.IOException;
  */
 
 public class InheritanceThrowsClause {
-
 
 
 }
