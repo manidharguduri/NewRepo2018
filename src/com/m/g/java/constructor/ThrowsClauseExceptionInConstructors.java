@@ -1,4 +1,4 @@
-package com.m.g.java.basics;
+package com.m.g.java.constructor;
 
 import java.io.IOException;
 

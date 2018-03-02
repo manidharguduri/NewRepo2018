@@ -1,4 +1,4 @@
-package com.m.g.java.basics;
+package com.m.g.java.constructor;
 
 /**
  * The allowed Modifiers of a constructor are public,protected,private,Default

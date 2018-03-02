@@ -1,4 +1,4 @@
-package com.m.g.java.basics;
+package com.m.g.java.methodhiding;
 
 /**
  * If the child method has static modifier and parent has no static modifier

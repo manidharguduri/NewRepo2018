@@ -1,4 +1,4 @@
-package com.m.g.java.basics;
+package com.m.g.java.constructor;
 
 /**
  * Public varaibles can have setters and getters.
