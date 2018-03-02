@@ -13,6 +13,9 @@ public class InfiniteStream {
          * generate function takes Supplier(FunctionalInterface) as an argument.
          */
         Stream<String> echos = Stream.generate(() -> "Echo");
-        echos.forEach(echo -> System.out.print("Echo " + echo));
+      //  echos.forEach(echo -> System.out.print("Echo " + echo));
+
+        Stream<Double> mathDoubleValues = Stream.generate(Math::random);
+        mathDoubleValues.forEach(mathDoubleValue -> System.out.print("Echo " + mathDoubleValue));
     }
 }
