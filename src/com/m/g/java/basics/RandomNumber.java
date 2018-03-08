@@ -1,4 +1,4 @@
-package com.m.g.java;
+package com.m.g.java.basics;
 
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
