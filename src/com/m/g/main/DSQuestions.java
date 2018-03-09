@@ -6,38 +6,55 @@ import java.util.List;
 public class DSQuestions {
 
 
-    public void logicalQuestions()
+    public static void logicalQuestions()
     {
         List<String> questions = new ArrayList<>();
 
         // Question : 1
-        String angleInAClock = "Angle Between hours hand and minutes hand";
+        String angleInAClock = "Question : 1 : Angle Between hours hand and minutes hand ";
         questions.add(angleInAClock);
 
 
+
+        System.out.println("Logical Questions:");
+        System.out.println("==================");
+        questions.forEach(System.out::print);
+        System.out.println();
+
+
     }
 
 
-    public  void multiThreadingQuestion()
+    public  static void multiThreadingQuestion()
     {
         List<String> questions = new ArrayList<>();
 
         // Question : 1
-        String evenAndOddThreads = "Print the even and odd using inter thread communication";
+        String evenAndOddThreads = "Question : 1 : Print the even and odd using inter thread communication";
         questions.add(evenAndOddThreads);
+        System.out.println();
+        System.out.println("Multi Threaded Questions:");
+        System.out.println("==================");
+        questions.forEach(System.out::print);
+        System.out.println();
     }
 
-    public void binaryTreeQuestions()
+    public static void binaryTreeQuestions()
     {
         List<String> questions = new ArrayList<>();
 
-        // Question : 1
-        String binaryTree ="Given a binary ";
+
+        System.out.println();
+        System.out.println("Binary Tree Questions:");
+        System.out.println("==================");
+        questions.forEach(System.out::print);
+        System.out.println();
     }
 
     public static void main(String[] args) {
 
-
-
+        logicalQuestions();
+        multiThreadingQuestion();
+        binaryTreeQuestions();
     }
 }
