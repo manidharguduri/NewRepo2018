@@ -18,7 +18,7 @@ public class SQLInjectionDeleteQuery {
  import org.springframework.beans.factory.annotation.Autowired;
  import org.springframework.stereotype.Service;
 
- import com.pastebin.model.Post;
+ import com.simple.model.Post;
 
  @Service
  public class PostServiceImpl implements PostService {
